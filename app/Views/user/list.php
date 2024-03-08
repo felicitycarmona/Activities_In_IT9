@@ -31,7 +31,7 @@
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic example">
                                 <a href="<?= base_url() ?>user/edit/<?= $user->user_id ?>" class="btn btn-warning">Edit</a>
-                                <a href="#" class="btn btn-danger">Delete</a>
+                                <a href="<?= base_url() ?>user/delete/<?= $user->user_id ?>" class="btn btn-warning">Delete</a>
                             </div>
                         </td>
                     </tr>

@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS b_ci_db;
+DROP DATABASE IF EXISTS r_ci_db;
 
-CREATE DATABASE b_ci_db;
+CREATE DATABASE r_ci_db;
 
-USE b_ci_db;
+USE r_ci_db;
 
 CREATE TABLE genders(
 	gender_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,

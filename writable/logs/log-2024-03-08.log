@@ -1,0 +1,26 @@
+CRITICAL - 2024-03-08 00:22:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/list.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/list', [], true)
+ 3 APPPATH\Controllers\UserController.php(16): view('user/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listUsers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\roxas-ci\\public\\index.php')
+CRITICAL - 2024-03-08 00:22:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/list.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/list', [], true)
+ 3 APPPATH\Controllers\UserController.php(16): view('user/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listUsers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\roxas-ci\\public\\index.php')
+INFO - 2024-03-08 00:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 00:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 00:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 00:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 00:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 00:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
